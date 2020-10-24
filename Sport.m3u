@@ -1,0 +1,21 @@
+#EXTM3U 
+#EXTINF:0 group-title="SKY UK"tvg-logo="http://logo.ddnb.tn/logochanel/1053.png",SKY Sports News
+http://vvn.neoredi.com/iptv/ch1053?code=196151145486952&key=10385
+#EXTINF:0 group-title="SKY UK"tvg-logo="http://logo.ddnb.tn/logochanel/922.png",SKY Sports Football
+http://vvn.neoredi.com/iptv/ch922?code=196151145486952&key=36098
+#EXTINF:0 group-title="SKY UK"tvg-logo="http://logo.ddnb.tn/logochanel/937.png",Sky Sports Premier League
+http://vvn.neoredi.com/iptv/ch937?code=196151145486952&key=40471
+#EXTINF:0 group-title="SKY UK"tvg-logo="http://logo.ddnb.tn/logochanel/914.png",SKY Sports Golf
+http://vvn.neoredi.com/iptv/ch914?code=196151145486952&key=24864
+#EXTINF:0 group-title="SKY UK"tvg-logo="http://logo.ddnb.tn/logochanel/915.png",SKY Sports Action
+http://vvn.neoredi.com/iptv/ch915?code=196151145486952&key=59295
+#EXTINF:0 group-title="SKY UK"tvg-logo="http://logo.ddnb.tn/logochanel/916.png",SKY Sport Criket UK
+http://vvn.neoredi.com/iptv/ch916?code=196151145486952&key=18324
+#EXTINF:0 group-title="SKY UK"tvg-logo="http://logo.ddnb.tn/logochanel/1828.png",BT Sport 1
+http://vvn.neoredi.com/iptv/ch1828?code=196151145486952&key=42250
+#EXTINF:0 group-title="SKY UK"tvg-logo="http://logo.ddnb.tn/logochanel/1829.png",BT Sport 2
+http://vvn.neoredi.com/iptv/ch1829?code=196151145486952&key=38263
+#EXTINF:0 group-title="SKY UK"tvg-logo="http://logo.ddnb.tn/logochanel/1830.png",BT Sport 3
+http://vvn.neoredi.com/iptv/ch1830?code=196151145486952&key=49960
+#EXTINF:0 group-title="SKY UK"tvg-logo="http://logo.ddnb.tn/logochanel/1833.png",BT Sport ESPN
+http://vvn.neoredi.com/iptv/ch1833?code=196151145486952&key=15163
