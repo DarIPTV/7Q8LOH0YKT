@@ -15,14 +15,14 @@ https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/assadissa/hls_snrt/index
 https://streaming.medi1tv.com/live/Medi1tvArabia.sdp/playlist.m3u8
 #EXTINF: -1 tvg-id="MBC 1 ARB" tvg-name="MBC 1 ARB" tvg-logo="https://i.imgur.com/eKBXOKd.png" group-title="Classic", MBC
 https://shls-mbc1ksa-prod.shahid.net/mbc1ksa-prod.m3u8
-#EXTINF: -1 tvg-id="MBC" tvg-name="MBC 2 ARB" tvg-logo="https://i.imgur.com/KXuzL1u.png" group-title="Classic", MBC 2
-https://shls-mbc2-prod.shahid.net/mbc2-prod.m3u8
+#EXTINF: -1 tvg-id="MBC 2 ARB" tvg-name="MBC 2 ARB" tvg-logo="https://i.imgur.com/KXuzL1u.png" group-title="Classic", MBC 2
+https://shls-mbc2-prod-dub.shahid.net/out/v1/b4befe19798745fe986f5a9bfba62126/index_1.m3u8
 #EXTINF: -1 tvg-id="MBC 3 ARB" tvg-name="MBC 3 ARB" tvg-logo="https://i.imgur.com/FVNVC73.png" group-title="Classic", MBC 3
-https://shls-mbc3-prod.shahid.net/mbc3-prod.m3u8
+https://shls-mbc3-eur-prod-dub.shahid.net/out/v1/fce09dd6a967431a871efb3b8dec9f82/index.m3u8
 #EXTINF: -1 tvg-id="MBC 4 ARB" tvg-name="MBC 4 ARB" tvg-logo="https://i.imgur.com/pfF61uH.png" group-title="Classic", MBC 4
-https://shls-mbc4-prod.shahid.net/mbc4-prod.m3u8
+https://shls-mbc4-prod-dub.shahid.net/out/v1/c08681f81775496ab4afa2bac7ae7638/index_1.m3u8
 #EXTINF: -1 tvg-id="MBC 5 ARB" tvg-name="MBC 5 ARB" tvg-logo="https://upload.wikimedia.org/wikipedia/ar/thumb/4/48/Mbc5.webp/168px-Mbc5.webp.png" group-title="Classic", MBC 5
-https://shls-mbc5-prod.shahid.net/mbc5-prod.m3u8
+https://shls-mbc5-prod-dub.shahid.net/out/v1/2720564b6a4641658fdfb6884b160da2/index_1.m3u8
 #EXTINF: -1 tvg-id="MBC Action ARB" tvg-name="MBC Action ARB" tvg-logo="https://i.imgur.com/n3TgfP0.png" group-title="Classic", MBC Action
 https://shls-mbcaction-prod.shahid.net/mbcaction-prod.m3u8
 #EXTINF: -1 tvg-id="MBC Drama ARB" tvg-name="MBC Drama ARB" tvg-logo="https://i.imgur.com/F5ER0we.png" group-title="Classic", MBC Drama
