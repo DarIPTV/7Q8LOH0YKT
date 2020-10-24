@@ -1,15 +1,15 @@
 #EXTM3U 
-#EXTINF: -1 tvg-logo="http://www.snrtlive.ma/sites/all/themes/snrtlive/images/alaoulax2.png" group-title="Classic", Al Aoula
+#EXTINF: -1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e4/%D8%B4%D8%B9%D8%A7%D8%B1_%D9%82%D9%86%D8%A7%D8%A9_%D8%A7%D9%84%D8%A3%D9%88%D9%84%D9%89_Al_Aoula_Tv_Logo.png" group-title="Classic", Al Aoula
 https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/al_aoula_inter/hls_snrt/al_aoula_inter.m3u8
 #EXTINF: -1 tvg-id="2M Monde ARB" tvg-name="2M Monde ARB" tvg-logo="https://i.imgur.com/eE1SdyA.png" group-title="Classic", 2M Monde
 https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/2m_monde/hls_video_ts/2m_monde.m3u8
-#EXTINF: -1 tvg-logo="http://www.snrtlive.ma/sites/all/themes/snrtlive/images/arriadiax2.png" group-title="Classic", Arriadia
+#EXTINF: -1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3f/Arryadialogo.jpg" group-title="Classic", Arriadia
 http://cdnamd-hls-globecast.akamaized.net/live/ramdisk/arriadia/hls_snrt/index.m3u8
-#EXTINF: -1 tvg-logo="http://www.snrtlive.ma/sites/all/themes/snrtlive/images/attakafiya.png" group-title="Classic", Attakafiya
+#EXTINF: -1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fc/Arrabiaa.jpg" group-title="Classic", Attakafiya
 http://cdn-hls.globecast.tv/live/ramdisk/arrabiaa/hls_snrt/index.m3u8
-#EXTINF: -1 tvg-logo="http://www.snrtlive.ma/sites/all/themes/snrtlive/images/almaghribiax2.png" group-title="Classic", Al Maghribia
+#EXTINF: -1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/09/Almaghribiax2.png" group-title="Classic", Al Maghribia
 https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/al_maghribia_snrt/hls_snrt/index.m3u8
-#EXTINF: -1 tvg-logo="http://www.snrtlive.ma/sites/all/themes/snrtlive/images/assadissax2.png" group-title="Classic", Assadissa
+#EXTINF: -1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7e/Assadissa.png" group-title="Classic", Assadissa
 https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/assadissa/hls_snrt/index.m3u8
 #EXTINF: -1 tvg-logo="https://www.medi1tv.ma/ar/img/footer/logo_new.png" group-title="Classic", Medi 1 TV Arabic
 http://vvn.neoredi.com/iptv/ch166?code=196151145486952&key=43561
@@ -91,3 +91,35 @@ https://admdn2.cdn.mangomolo.com/adtv/smil:adtv.stream.smil/chunklist.m3u8
 https://admdn5.cdn.mangomolo.com/drama/smil:drama.stream.smil/playlist.m3u8
 #EXTINF: -1 tvg-logo="http://www.snrtlive.ma/sites/all/themes/snrtlive/images/laayounex2.png" group-title="Classic", Al Aoula Laayoune
 https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/al_aoula_laayoune/hls_snrt/index.m3u8
+
+
+#EXTINF:0 group-title="Morocco"tvg-logo="http://logo.ddnb.tn/logochanel/611.png",Al Oula Laayoun
+http://vvn.neoredi.com/iptv/ch611?code=196151145486952&key=14680
+#EXTINF:0 group-title="Morocco"tvg-logo="http://logo.ddnb.tn/logochanel/350.png",Oula Maroc HD TNT
+http://vvn.neoredi.com/iptv/ch350?code=196151145486952&key=59964
+#EXTINF:0 group-title="Morocco"tvg-logo="http://logo.ddnb.tn/logochanel/121.png",2M Maroc
+http://vvn.neoredi.com/iptv/ch121?code=196151145486952&key=24737
+#EXTINF:0 group-title="Morocco"tvg-logo="http://logo.ddnb.tn/logochanel/166.png",Medi1 Maghreb HD
+http://vvn.neoredi.com/iptv/ch166?code=196151145486952&key=43561
+#EXTINF:0 group-title="Morocco"tvg-logo="http://logo.ddnb.tn/logochanel/1460.png",Medi1 Afrique HD
+http://vvn.neoredi.com/iptv/ch1460?code=196151145486952&key=35432
+#EXTINF:0 group-title="Morocco"tvg-logo="http://logo.ddnb.tn/logochanel/1461.png",Medi1 Arab HD
+http://vvn.neoredi.com/iptv/ch1461?code=196151145486952&key=55211
+#EXTINF:0 group-title="Morocco"tvg-logo="http://logo.ddnb.tn/logochanel/1467.png",Maroc 24
+http://vvn.neoredi.com/iptv/ch1467?code=196151145486952&key=33037
+#EXTINF:0 group-title="Morocco"tvg-logo="http://logo.ddnb.tn/logochanel/761.png",Arrabiaa
+http://vvn.neoredi.com/iptv/ch761?code=196151145486952&key=11270
+#EXTINF:0 group-title="Morocco"tvg-logo="http://logo.ddnb.tn/logochanel/733.png",Arriadhia
+http://vvn.neoredi.com/iptv/ch733?code=196151145486952&key=48569
+#EXTINF:0 group-title="Morocco"tvg-logo="http://logo.ddnb.tn/logochanel/351.png",Arriadhia TNT
+http://vvn.neoredi.com/iptv/ch351?code=196151145486952&key=64805
+#EXTINF:0 group-title="Morocco"tvg-logo="http://logo.ddnb.tn/logochanel/377.png",Arriadhia Live HD
+http://vvn.neoredi.com/iptv/ch377?code=196151145486952&key=24327
+#EXTINF:0 group-title="Morocco"tvg-logo="http://logo.ddnb.tn/logochanel/147.png",Assadissa
+http://vvn.neoredi.com/iptv/ch147?code=196151145486952&key=34972
+#EXTINF:0 group-title="Morocco"tvg-logo="http://logo.ddnb.tn/logochanel/352.png",Assabiaa TNT
+http://vvn.neoredi.com/iptv/ch352?code=196151145486952&key=41174
+#EXTINF:0 group-title="Morocco"tvg-logo="http://logo.ddnb.tn/logochanel/56.png",Al Maghribia
+http://vvn.neoredi.com/iptv/ch56?code=196151145486952&key=41186
+#EXTINF:0 group-title="Morocco"tvg-logo="http://logo.ddnb.tn/logochanel/487.png",Tamazight Maroc
+http://vvn.neoredi.com/iptv/ch487?code=196151145486952&key=27103
