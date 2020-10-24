@@ -68,7 +68,7 @@ https://rotana.hibridmedia.com/rotana/kids_dabr/playlist.m3u8
 #EXTINF: -1 tvg-logo="https://i.imgur.com/RzPOwqI.png" group-title="Classic", Spacetoon
 https://streams.spacetoon.com/live/stchannel/smil:livesmil.smil/playlist.m3u8
 #EXTINF: -1 tvg-id="Cartoon Network Arabic ARB" tvg-name="Cartoon Network Arabic ARB" tvg-logo="https://i.imgur.com/mT3mCCK.png" group-title="Classic", Cartoon Network
-https://shls-cartoon-net-prod.shahid.net/cartoon-network-prod.m3u8
+http://vvn.neoredi.com/iptv/ch65?code=196151145486952&key=59355
 #EXTINF: -1 tvg-id="Nile Drama ARB" tvg-name="Nile Drama ARB" tvg-logo="https://i.imgur.com/jiyPTfa.png" group-title="Classic", Nile Drama
 http://vvn.neoredi.com/iptv/ch69?code=196151145486952&key=37679
 #EXTINF: -1 tvg-logo="https://i.imgur.com/xhR4dy0.jpg" group-title="Classic", Nile Cinema
@@ -93,5 +93,3 @@ https://admdn2.cdn.mangomolo.com/adtv/smil:adtv.stream.smil/chunklist.m3u8
 https://admdn5.cdn.mangomolo.com/drama/smil:drama.stream.smil/playlist.m3u8
 #EXTINF: -1 tvg-logo="http://www.snrtlive.ma/sites/all/themes/snrtlive/images/laayounex2.png" group-title="Classic", Al Aoula Laayoune
 https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/al_aoula_laayoune/hls_snrt/index.m3u8
-
-#THANKYOU
