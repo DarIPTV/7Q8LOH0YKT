@@ -28,9 +28,9 @@ https://shls-mbcaction-prod-dub.shahid.net/out/v1/68dd761538e5460096c42422199d05
 #EXTINF: -1 tvg-id="MBC Drama ARB" tvg-name="MBC Drama ARB" tvg-logo="https://i.imgur.com/F5ER0we.png" group-title="Classic", MBC Drama
 https://shls-mbcdramaksa-prod-dub.shahid.net/out/v1/ce0f0762d89e4394a856c5fd13e43645/index_2.m3u8
 #EXTINF: -1 tvg-id="MBC Max ARB" tvg-name="MBC Max ARB" tvg-logo="https://i.imgur.com/X6EliFm.png" group-title="Classic", MBC Max
-http://vvn.neoredi.com/iptv/ch2201?code=196151145486952&key=46911
+https://shls-mbcmax-prod-dub.shahid.net/out/v1/13815a7cda864c249a88c38e66a2e653/index_1.m3u8
 #EXTINF: -1 tvg-id="MBC Bollywood ARB" tvg-name="MBC Bollywood ARB" tvg-logo="https://i.imgur.com/fMjhK06.png" group-title="Classic", MBC Bollywood
-http://vvn.neoredi.com/iptv/ch347?code=196151145486952&key=63726
+https://shls-mbcbollywood-prod-dub.shahid.net/out/v1/a79c9d7ef2a64a54a64d5c4567b3462a/index_1.m3u8
 #EXTINF: -1 tvg-id="MBC Plus Drama ARB" tvg-name="MBC Plus Drama ARB" tvg-logo="http://logo.ddnb.tn/logochanel/502.png" group-title="Classic", MBC Plus Drama
 https://shls-mbcplusdrama-prod-dub.shahid.net/out/v1/97ca0ce6fc6142f4b14c0a694af59eab/index_1.m3u8
 #EXTINF: -1 tvg-id="MBC Plus Variety ARB" tvg-name="MBC Plus Variety ARB" tvg-logo="http://logo.ddnb.tn/logochanel/1102.png" group-title="Classic", MBC Plus Variety
@@ -38,31 +38,33 @@ http://vvn.neoredi.com/iptv/ch1102?code=196151145486952&key=26246
 #EXTINF: -1 tvg-id="Wanasah ARB" tvg-name="Wanasah ARB" tvg-logo="https://i.imgur.com/GmgibYW.jpg" group-title="Classic", Wanasah
 https://shls-wanasah-prod-dub.shahid.net/out/v1/c84ef3128e564b74a6a796e8b6287de6/index_1.m3u8
 #EXTINF: -1 tvg-id="MBC Masr 1 ARB" tvg-name="MBC Masr 1 ARB" tvg-logo="https://i.imgur.com/SrvZduL.jpg" group-title="Classic", MBC Masr 1
-http://vvn.neoredi.com/iptv/ch37?code=196151145486952&key=50207
+https://shls-masr-prod-dub.shahid.net/out/v1/b7093401da27496797a8949de23f4578/index_1.m3u8
 #EXTINF: -1 tvg-id="MBC Masr 2 ARB" tvg-name="MBC Masr 2 ARB" tvg-logo="https://i.imgur.com/7dQmaj6.png" group-title="Classic", MBC Masr 2
-http://vvn.neoredi.com/iptv/ch480?code=196151145486952&key=16490
+https://shls-masr2-prod-dub.shahid.net/out/v1/f683685242b549f48ea8a5171e3e993a/index_1.m3u8
 #EXTINF: -1 tvg-id="LBC International ARB" tvg-name="LBC International ARB" tvg-logo="https://rotana.net/assets/themes/TriTheme/images/channels/lbc.png" group-title="Classic", LBC International
-https://rotana.hibridmedia.com/rotana/lbc_dabr/playlist.m3u8
+https://rotana.hibridmedia.com/rotana/lbc_dabr/rotana/lbc_1080p/chunks.m3u8
 #EXTINF: -1 tvg-id="MTV Lebanon ARB" tvg-name="MTV Lebanon ARB" tvg-logo="https://www.mtv.com.lb/Content/images/logo-header.jpg" group-title="Classic", MTV Lebanon
 http://vvn.neoredi.com/iptv/ch163?code=196151145486952&key=38359
 #EXTINF: -1 tvg-id="National Geographic Abu Dhabi AR ARB" tvg-name="National Geographic Abu Dhabi AR ARB" tvg-logo="https://i.imgur.com/baXbWro.jpg" group-title="Classic", National Geographic Abu Dhabi
 https://admdn2.cdn.mangomolo.com/nagtv/smil:nagtv.stream.smil/playlist.m3u8?adtv
-#EXTINF: -1 tvg-id="Rotana Cinema ARB" tvg-name="Rotana Cinema ARB" tvg-logo="https://rotana.net/assets/themes/TriTheme/images/channels/cinema.png" group-title="Classic", Rotana Cinema HD
+#EXTINF:-1 tvg-id="Rotana Cinema ARB" tvg-name="Rotana Cinema ARB" tvg-language="Arabic" tvg-logo="https://rotana.net/assets/themes/TriTheme/images/channels/cinema.png" group-title="",Rotana Cinema HD
 https://rotana.hibridmedia.com/rotana/cinema_dabr/playlist.m3u8
-#EXTINF: -1 tvg-id="Rotana Classic ARB" tvg-name="Rotana Classic ARB" tvg-logo="https://rotana.net/assets/themes/TriTheme/images/channels/classic.png" group-title="Classic", Rotana Classic HD
+#EXTINF:-1 tvg-id="Rotana Classic ARB" tvg-name="Rotana Classic ARB" tvg-language="Arabic" tvg-logo="https://rotana.net/assets/themes/TriTheme/images/channels/classic.png" group-title="",Rotana Classic HD
 https://rotana.hibridmedia.com/rotana/classical_dabr/playlist.m3u8
-#EXTINF: -1 tvg-logo="https://rotana.net/assets/themes/TriTheme/images/channels/drama.png" group-title="Classic", Rotana Drama HD
-https://rotana.hibridmedia.com/rotana/drama_dabr/playlist.m3u8
-#EXTINF: -1 tvg-id="Rotana Comedy ARB" tvg-name="Rotana Comedy ARB" tvg-logo="https://rotana.net/assets/themes/TriTheme/images/channels/comedy.png" group-title="Classic", Rotana Comedy HD
+#EXTINF:-1 tvg-id="Rotana Comedy ARB" tvg-name="Rotana Comedy ARB" tvg-language="Arabic" tvg-logo="https://rotana.net/assets/themes/TriTheme/images/channels/comedy.png" group-title="",Rotana Comedy HD
 https://rotana.hibridmedia.com/rotana/comedy_dabr/playlist.m3u8
-#EXTINF: -1 tvg-id="Rotana Khalijia ARB" tvg-name="Rotana Khalijia ARB" tvg-logo="https://rotana.net/assets/themes/TriTheme/images/channels/khalijiat.png" group-title="Classic", Rotana Khalijia HD
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Arabic" tvg-logo="https://rotana.net/assets/themes/TriTheme/images/channels/drama.png" group-title="",Rotana Drama HD
+https://rotana.hibridmedia.com/rotana/drama_dabr/playlist.m3u8
+#EXTINF:-1 tvg-id="Rotana Khalijia ARB" tvg-name="Rotana Khalijia ARB" tvg-language="Arabic" tvg-logo="https://rotana.net/assets/themes/TriTheme/images/channels/khalijiat.png" group-title="",Rotana Khalijia HD
 https://rotana.hibridmedia.com/rotana/khaleejiya_dabr/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Arabic" tvg-logo="https://rotana.net/assets/themes/TriTheme/images/channels/kids.png" group-title="",Rotana Kids
+https://rotana.hibridmedia.com/rotana/kids_dabr/playlist.m3u8
 #EXTINF: -1 tvg-id="Rotana Clip ARB" tvg-name="Rotana Clip ARB" tvg-logo="https://i.imgur.com/qOrO9PO.jpg" group-title="Classic", Rotana Clip
 http://vvn.neoredi.com/iptv/ch190?code=196151145486952&key=25184
 #EXTINF: -1 tvg-id="Rotana Music ARB" tvg-name="Rotana Music ARB" tvg-logo="https://i.imgur.com/N4AyK2U.png" group-title="Classic", Rotana Music
 http://vvn.neoredi.com/iptv/ch2212?code=196151145486952&key=27359
-#EXTINF: -1 tvg-logo="https://rotana.net/assets/themes/TriTheme/images/channels/kids.png" group-title="Classic", Rotana Kids
-https://rotana.hibridmedia.com/rotana/kids_dabr/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Arabic" tvg-logo="https://rotana.net/assets/themes/TriTheme/images/channels/kids.png" group-title="",Rotana Kids
+https://mysat-live.ercdn.net/rotanakids/rotanakids.m3u8
 #EXTINF: -1 tvg-logo="https://i.imgur.com/RzPOwqI.png" group-title="Classic", Spacetoon
 https://streams.spacetoon.com/live/stchannel/smil:livesmil.smil/playlist.m3u8
 #EXTINF: -1 tvg-id="Cartoon Network Arabic ARB" tvg-name="Cartoon Network Arabic ARB" tvg-logo="https://i.imgur.com/mT3mCCK.png" group-title="Classic", Cartoon Network
