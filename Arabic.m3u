@@ -57,14 +57,12 @@ https://rotana.hibridmedia.com/rotana/comedy_dabr/playlist.m3u8
 https://rotana.hibridmedia.com/rotana/drama_dabr/playlist.m3u8
 #EXTINF:-1 tvg-id="Rotana Khalijia ARB" tvg-name="Rotana Khalijia ARB" tvg-language="Arabic" tvg-logo="https://rotana.net/assets/themes/TriTheme/images/channels/khalijiat.png" group-title="",Rotana Khalijia HD
 https://rotana.hibridmedia.com/rotana/khaleejiya_dabr/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Arabic" tvg-logo="https://rotana.net/assets/themes/TriTheme/images/channels/kids.png" group-title="",Rotana Kids
-https://rotana.hibridmedia.com/rotana/kids_dabr/playlist.m3u8
 #EXTINF: -1 tvg-id="Rotana Clip ARB" tvg-name="Rotana Clip ARB" tvg-logo="https://i.imgur.com/qOrO9PO.jpg" group-title="Classic", Rotana Clip
 http://vvn.neoredi.com/iptv/ch190?code=196151145486952&key=25184
 #EXTINF: -1 tvg-id="Rotana Music ARB" tvg-name="Rotana Music ARB" tvg-logo="https://i.imgur.com/N4AyK2U.png" group-title="Classic", Rotana Music
 http://vvn.neoredi.com/iptv/ch2212?code=196151145486952&key=27359
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Arabic" tvg-logo="https://rotana.net/assets/themes/TriTheme/images/channels/kids.png" group-title="",Rotana Kids
-https://mysat-live.ercdn.net/rotanakids/rotanakids.m3u8
+https://rotana.hibridmedia.com/rotana/kids_dabr/playlist.m3u8
 #EXTINF: -1 tvg-logo="https://i.imgur.com/RzPOwqI.png" group-title="Classic", Spacetoon
 https://streams.spacetoon.com/live/stchannel/smil:livesmil.smil/playlist.m3u8
 #EXTINF: -1 tvg-id="Cartoon Network Arabic ARB" tvg-name="Cartoon Network Arabic ARB" tvg-logo="https://i.imgur.com/mT3mCCK.png" group-title="Classic", Cartoon Network
