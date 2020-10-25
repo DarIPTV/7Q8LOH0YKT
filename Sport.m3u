@@ -102,4 +102,8 @@ http://dx4.gcdn.co/UKS1754/index.m3u8
 http://dx4.gcdn.co/UKS1755/index.m3u8
 #EXTINF:-1 tvg-id="beinsports10olympic.qa" tvg-name="BeIN Sports S2 10 FHD" tvg-logo="http://163.172.48.123/logos/LogoEVDTV/BeIN/Sport/HD10.png" group-title="BeIN Sports S2",BeIN Sports S2 10 FHD
 http://dx4.gcdn.co/UKS1756/index.m3u8
+#EXTINF:-1 tvg-id="beinsports11.qa" tvg-name="BeIN Sports S2 11 FHD" tvg-logo="http://163.172.48.123/logos/LogoEVDTV/BeIN/Sport/HD11.png" group-title="BeIN Sports S2",BeIN Sports S2 11 FHD
+http://dx4.gcdn.co/UKS1757/index.m3u8
+#EXTINF:-1 tvg-id="beinsports12.qa" tvg-name="BeIN Sports S2 12 FHD" tvg-logo="http://163.172.48.123/logos/LogoEVDTV/BeIN/Sport/HD12.png" group-title="BeIN Sports S2",BeIN Sports S2 12 FHD
+http://dx4.gcdn.co/UKS1758/index.m3u8
 
