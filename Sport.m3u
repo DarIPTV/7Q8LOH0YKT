@@ -107,3 +107,8 @@ http://dx4.gcdn.co/UKS1757/index.m3u8
 #EXTINF:-1 tvg-id="beinsports12.qa" tvg-name="BeIN Sports S2 12 FHD" tvg-logo="http://163.172.48.123/logos/LogoEVDTV/BeIN/Sport/HD12.png" group-title="BeIN Sports S2",BeIN Sports S2 12 FHD
 http://dx4.gcdn.co/UKS1758/index.m3u8
 
+
+#EXTINF:-1,GB : SKY SPORTS MAIN EVENT
+http://mains.vip:2086/craigg/1Lurn7m3F1/67058
+#EXTINF:-1,SPORTS : BEIN SPORTS 11 (ENG)
+http://mains.vip:2086/craigg/1Lurn7m3F1/66782
