@@ -56,59 +56,23 @@ http://vvn.neoredi.com/iptv/ch517?code=196151145486952&key=22543
 #EXTINF:0 group-title="BeInSport"tvg-logo="http://logo.ddnb.tn/logochanel/522.png",BeInSport NBA HD 
 http://vvn.neoredi.com/iptv/ch522?code=196151145486952&key=41730
 
-#EXTINF:0 group-title="BeInSport"tvg-logo="http://logo.ddnb.tn/logochanel/522.png",BeInSport 1 ENGLISH
-http://winges-4k.com:25461/Tar@rach@1/9884Wht@2/53420
-#EXTM3U
-#EXTINF:-1,EN ⫸ BEIN SPORTS 1 ENGLISH HD ʙᴀᴄᴋᴜᴘ
-http://winges-4k.com:25461/Tar@rach@1/9884Wht@2/1458
-#EXTINF:-1,AR | BEIN SPORTS 1 ENG  HD
-http://winges-4k.com:25461/Tar@rach@1/9884Wht@2/53420
-#EXTINF:-1,AR | BEIN SPORTS 2 ENG  HD
-http://winges-4k.com:25461/Tar@rach@1/9884Wht@2/53421
-#EXTINF:-1,AR | BEIN SPORTS 3 ENG  HD
-http://winges-4k.com:25461/Tar@rach@1/9884Wht@2/53422
-#EXTINF:-1,EN ⫸ BEIN SPORTS 3 FHD ENGLISH ʙᴀᴄᴋᴜᴘ
-http://winges-4k.com:25461/Tar@rach@1/9884Wht@2/13839
-#EXTINF:-1,AR ⫸ BEIN SPORTS 1 ENGLISH  FHD
-http://winges-4k.com:25461/Tar@rach@1/9884Wht@2/13840
-#EXTINF:-1,AR ⫸ BEIN SPORTS 1 ENG  FHD ʙᴀᴄᴋᴜᴘ
-http://winges-4k.com:25461/Tar@rach@1/9884Wht@2/13841
-#EXTINF:-1,AR ⫸ BEIN SPORTS 2 ENG  FHD
-http://winges-4k.com:25461/Tar@rach@1/9884Wht@2/13842
-#EXTINF:-1,AR ⫸ BEIN SPORTS 2 ENG  FHD ʙᴀᴄᴋᴜᴘ
-http://winges-4k.com:25461/Tar@rach@1/9884Wht@2/13845
-#EXTINF:-1,AR | BEIN SPORTS 3 ENG  FHD
-http://winges-4k.com:25461/Tar@rach@1/9884Wht@2/33643
-#EXTINF:-1,AR | BEIN SPORTS  FHD ʙᴀᴄᴋᴜᴘ
-http://winges-4k.com:25461/Tar@rach@1/9884Wht@2/51831
-#EXTINF:-1,AR | BEIN SPORTS 3 ENG  FHD ʙᴀᴄᴋᴜᴘ
-http://winges-4k.com:25461/Tar@rach@1/9884Wht@2/33645
-#EXTINF:-1,EN | BEIN SPORTS 2 ENGLISH FHD
-http://winges-4k.com:25461/Tar@rach@1/9884Wht@2/53967
-#EXTINF:-1,EN | BEIN SPORTS 3 ENGLISH FHD
-http://winges-4k.com:25461/Tar@rach@1/9884Wht@2/53968
-
-#EXTINF:-1,EN | BEIN SPORTS 1 ENGLISH  HD
-http://winges-4k.com:25461/Tar@rach@1/9884Wht@2/53995
-#EXTINF:-1,AR | BEIN SPORTS 1 ENGLISH  FHD ʙᴀᴄᴋᴜᴘ
-http://winges-4k.com:25461/Tar@rach@1/9884Wht@2/53996
-#EXTINF:-1,AR | BEIN SPORTS 2 Eng  FHD
-http://winges-4k.com:25461/Tar@rach@1/9884Wht@2/53997
-#EXTINF:-1,AR | BEIN SPORTS 2 Eng  FHD ʙᴀᴄᴋᴜᴘ
-http://winges-4k.com:25461/Tar@rach@1/9884Wht@2/53998
-#EXTINF:-1,AR | BEIN SPORTS 3 ENG  FHD
-http://winges-4k.com:25461/Tar@rach@1/9884Wht@2/53999
-#EXTINF:-1,AR | BEIN SPORTS 3 Eng  FHD ʙᴀᴄᴋᴜᴘ
-http://winges-4k.com:25461/Tar@rach@1/9884Wht@2/54000
-
-#EXTINF:-1,EN ⫸ BEIN SPORTS 1 ENGLISH
-http://winges-4k.com:25461/Tar@rach@1/9884Wht@2/162
-
-#EXTINF:-1,EN ⫸ BEIN SPORTS 11
-http://kaicertv.ddns.net:8080/VLV5BfmZhv/0Fpqb6UxhJ/3001
-
 #EXTINF:-1 tvg-id="ITV (UK)" tvg-name="ITV" tvg-logo="https://i.imgur.com/SsgOgRF.png" group-title="UK",ITV
-http://sportportal1.akamaized.net/hls/live/702646/itvlive/ITV1PORTAL2/master_Main1800.m3u8
+http://sportportal1.akamaized.net/hls/live/702646/itvlive/ITV1PORTAL2/master
 
-#EXTINF:-1, beIN HD11
-http://kaicertv.ddns.net:8080/53v6DmGBGg/QeDBJo7qEq/3001
+#EXTINF:-1 tvg-id="BBCNewsHD.uk" tvg-name="BBC News HD" tvg-country="UK" tvg-language="English" tvg-logo="" group-title="",BBC News HD
+https://vs-hls-push-uk-live.akamaized.net/content/x=3/v=pv14/b=5070016/t=3840/i=urn:bbc:pips:service:bbc_news_channel_hd/main.m3u8
+
+#EXTINF:-1 tvg-id="BBCOneHD.uk" tvg-name="BBC One HD" tvg-country="UK" tvg-language="English" tvg-logo="" group-title="",BBC One HD
+https://vs-hls-push-uk-live.akamaized.net/content/x=3/v=pv14/b=5070016/t=3840/i=urn:bbc:pips:service:bbc_one_hd/main.m3u8
+
+#EXTINF:-1 tvg-id="BBCTwoHD.uk" tvg-name="BBC Two HD" tvg-country="UK" tvg-language="English" tvg-logo="" group-title="",BBC Two HD
+https://vs-hls-push-uk-live.akamaized.net/content/x=3/v=pv14/b=5070016/t=3840/i=urn:bbc:pips:service:bbc_two_hd/main.m3u8
+
+#EXTINF:-1 tvg-id="BBCFourHD.uk" tvg-name="BBC Four HD" tvg-country="UK" tvg-language="English" tvg-logo="" group-title="",BBC Four HD
+https://vs-hls-pushb-uk-live.akamaized.net/content/x=3/v=pv14/b=5070016/t=3840/i=urn:bbc:pips:service:bbc_four_hd/main.m3u8
+
+#EXTINF:-1 tvg-id="CBBCHD.uk" tvg-name="CBBC HD" tvg-country="UK" tvg-language="English" tvg-logo="" group-title="",CBBC HD
+https://vs-hls-pushb-uk-live.akamaized.net/content/x=3/v=pv14/b=5070016/t=3840/i=urn:bbc:pips:service:cbbc_hd/main.m3u8
+
+#EXTINF:-1 tvg-id="CBeebiesHD.uk" tvg-name="CBeebies HD" tvg-country="UK" tvg-language="English" tvg-logo="" group-title="",CBeebies HD
+https://vs-hls-pushb-uk-live.akamaized.net/content/x=3/v=pv14/b=5070016/t=3840/i=urn:bbc:pips:service:cbeebies_hd/main.m3u8
