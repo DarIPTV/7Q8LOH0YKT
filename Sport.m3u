@@ -59,15 +59,15 @@ http://vvn.neoredi.com/iptv/ch522?code=196151145486952&key=41730
 #EXTINF:-1 tvg-id="ITVUK.uk" tvg-name="ITV UK" tvg-country="UK" tvg-language="" tvg-logo="" group-title="",ITV UK
 https://sportportal1.akamaized.net/hls/live/702646/itvlive/ITV1PORTAL2/master.m3u8
 
-#EXTINF:-1,BBC One HD tvg-name="ITV UK" tvg-country="UK" tvg-language="" tvg-logo="" group-title="",
+#EXTINF:-1,BBC One HD tvg-id="BBCOneHD.uk" tvg-name="BBC One" tvg-country="UK" tvg-language="" tvg-logo="" group-title="",
 https://vs-hls-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_one_hd/t=3840/v=pv14/b=5070016/main.m3u8
-#EXTINF:-1,BBC Two HD tvg-name="ITV UK" tvg-country="UK" tvg-language="" tvg-logo="" group-title="",
+#EXTINF:-1,BBC Two HD tvg-id="BBCTwoHD.uk" tvg-name="BBC Two" tvg-country="UK" tvg-language="" tvg-logo="" group-title="",
 https://vs-hls-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_two_hd/t=3840/v=pv14/b=5070016/main.m3u8
-#EXTINF:-1,BBC News HD tvg-name="ITV UK" tvg-country="UK" tvg-language="" tvg-logo="" group-title="",
+#EXTINF:-1,BBC News HD tvg-id="BBCNewsHD.uk" tvg-name="BBC News" tvg-country="UK" tvg-language="" tvg-logo="" group-title="",
 https://vs-hls-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
-#EXTINF:-1,BBC Four HD tvg-name="ITV UK" tvg-country="UK" tvg-language="" tvg-logo="" group-title="",
+#EXTINF:-1,BBC Four HD tvg-id="BBCFourHD.uk" tvg-name="BBC Four" tvg-country="UK" tvg-language="" tvg-logo="" group-title="",
 https://vs-hls-pushb-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_four_hd/t=3840/v=pv14/b=5070016/main.m3u8
-#EXTINF:-1,CBBC HD tvg-name="ITV UK" tvg-country="UK" tvg-language="" tvg-logo="" group-title="",
+#EXTINF:-1,CBBC HD tvg-id="CBBCHD.uk" tvg-name="CBBC" tvg-country="UK" tvg-language="" tvg-logo="" group-title="",
 https://vs-hls-pushb-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:cbbc_hd/t=3840/v=pv14/b=5070016/main.m3u8
-#EXTINF:-1,CBeebies HD tvg-name="ITV UK" tvg-country="UK" tvg-language="" tvg-logo="" group-title="",
+#EXTINF:-1,CBeebies HD tvg-id="CBeebiesHD.uk" tvg-name="CBeebies" tvg-country="UK" tvg-language="" tvg-logo="" group-title="",
 https://vs-hls-pushb-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:cbeebies_hd/t=3840/v=pv14/b=5070016/main.m3u8
