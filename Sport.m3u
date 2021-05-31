@@ -59,20 +59,15 @@ http://vvn.neoredi.com/iptv/ch522?code=196151145486952&key=41730
 #EXTINF:-1 tvg-id="ITVUK.uk" tvg-name="ITV UK" tvg-country="UK" tvg-language="" tvg-logo="" group-title="",ITV UK
 https://sportportal1.akamaized.net/hls/live/702646/itvlive/ITV1PORTAL2/master.m3u8
 
-#EXTINF:-1 tvg-id="BBCNewsHD.uk" tvg-name="BBC News HD" tvg-country="UK" tvg-language="English" tvg-logo="" group-title="",BBC News HD
-https://vs-hls-push-uk-live.akamaized.net/content/x=3/v=pv14/b=5070016/t=3840/i=urn:bbc:pips:service:bbc_news_channel_hd/main.m3u8
-
-#EXTINF:-1 tvg-id="BBCOneHD.uk" tvg-name="BBC One HD" tvg-country="UK" tvg-language="English" tvg-logo="" group-title="",BBC One HD
-https://vs-hls-push-uk-live.akamaized.net/content/x=3/v=pv14/b=5070016/t=3840/i=urn:bbc:pips:service:bbc_one_hd/main.m3u8
-
-#EXTINF:-1 tvg-id="BBCTwoHD.uk" tvg-name="BBC Two HD" tvg-country="UK" tvg-language="English" tvg-logo="" group-title="",BBC Two HD
-https://vs-hls-push-uk-live.akamaized.net/content/x=3/v=pv14/b=5070016/t=3840/i=urn:bbc:pips:service:bbc_two_hd/main.m3u8
-
-#EXTINF:-1 tvg-id="BBCFourHD.uk" tvg-name="BBC Four HD" tvg-country="UK" tvg-language="English" tvg-logo="" group-title="",BBC Four HD
-https://vs-hls-pushb-uk-live.akamaized.net/content/x=3/v=pv14/b=5070016/t=3840/i=urn:bbc:pips:service:bbc_four_hd/main.m3u8
-
-#EXTINF:-1 tvg-id="CBBCHD.uk" tvg-name="CBBC HD" tvg-country="UK" tvg-language="English" tvg-logo="" group-title="",CBBC HD
-https://vs-hls-pushb-uk-live.akamaized.net/content/x=3/v=pv14/b=5070016/t=3840/i=urn:bbc:pips:service:cbbc_hd/main.m3u8
-
-#EXTINF:-1 tvg-id="CBeebiesHD.uk" tvg-name="CBeebies HD" tvg-country="UK" tvg-language="English" tvg-logo="" group-title="",CBeebies HD
-https://vs-hls-pushb-uk-live.akamaized.net/content/x=3/v=pv14/b=5070016/t=3840/i=urn:bbc:pips:service:cbeebies_hd/main.m3u8
+#EXTINF:-1,BBC One HD
+https://vs-hls-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_one_hd/t=3840/v=pv14/b=5070016/main.m3u8
+#EXTINF:-1,BBC Two HD
+https://vs-hls-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_two_hd/t=3840/v=pv14/b=5070016/main.m3u8
+#EXTINF:-1,BBC News HD
+https://vs-hls-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
+#EXTINF:-1,BBC Four HD
+https://vs-hls-pushb-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_four_hd/t=3840/v=pv14/b=5070016/main.m3u8
+#EXTINF:-1,CBBC HD
+https://vs-hls-pushb-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:cbbc_hd/t=3840/v=pv14/b=5070016/main.m3u8
+#EXTINF:-1,CBeebies HD
+https://vs-hls-pushb-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:cbeebies_hd/t=3840/v=pv14/b=5070016/main.m3u8
