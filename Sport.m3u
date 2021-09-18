@@ -71,3 +71,5 @@ https://vs-hls-pushb-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_four_h
 https://vs-hls-pushb-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:cbbc_hd/t=3840/v=pv14/b=5070016/main.m3u8
 #EXTINF:-1 tvg-id="CBeebiesHD.uk" tvg-name="CBeebies" tvg-country="UK" tvg-language="" tvg-logo="" group-title="",CBeebies HD
 https://vs-hls-pushb-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:cbeebies_hd/t=3840/v=pv14/b=5070016/main.m3u8
+
+#EXTINF:-1 tvg-ID="" tvg-name="UK: Bein Sports" tvg-logo="" group-title="UK - Sport",UK: Bein Sports
