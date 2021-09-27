@@ -93,3 +93,17 @@ https://admdn2.cdn.mangomolo.com/adtv/smil:adtv.stream.smil/chunklist.m3u8
 https://admdn5.cdn.mangomolo.com/drama/smil:drama.stream.smil/playlist.m3u8
 #EXTINF: -1 tvg-logo="http://www.snrtlive.ma/sites/all/themes/snrtlive/images/laayounex2.png" group-title="Classic", Al Aoula Laayoune
 https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/al_aoula_laayoune/hls_snrt/index.m3u8
+#EXTINF:-1 tvg-id="ITVUK.uk" tvg-name="ITV UK" tvg-country="UK" tvg-language="" tvg-logo="" group-title="",ITV UK
+https://sportportal1.akamaized.net/hls/live/702646/itvlive/ITV1PORTAL2/master.m3u8
+#EXTINF:-1 tvg-id="BBCOneHD.uk" tvg-name="BBC One" tvg-country="UK" tvg-language="" tvg-logo="" group-title="",BBC One HD 
+https://vs-hls-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_one_hd/t=3840/v=pv14/b=5070016/main.m3u8
+#EXTINF:-1 tvg-id="BBCTwoHD.uk" tvg-name="BBC Two" tvg-country="UK" tvg-language="" tvg-logo="" group-title="",BBC Two HD
+https://vs-hls-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_two_hd/t=3840/v=pv14/b=5070016/main.m3u8
+#EXTINF:-1 tvg-id="BBCNewsHD.uk" tvg-name="BBC News" tvg-country="UK" tvg-language="" tvg-logo="" group-title="",BBC News HD
+https://vs-hls-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
+#EXTINF:-1 tvg-id="BBCFourHD.uk" tvg-name="BBC Four" tvg-country="UK" tvg-language="" tvg-logo="" group-title="",BBC Four HD
+https://vs-hls-pushb-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_four_hd/t=3840/v=pv14/b=5070016/main.m3u8
+#EXTINF:-1 tvg-id="CBBCHD.uk" tvg-name="CBBC" tvg-country="UK" tvg-language="" tvg-logo="" group-title="",CBBC HD 
+https://vs-hls-pushb-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:cbbc_hd/t=3840/v=pv14/b=5070016/main.m3u8
+#EXTINF:-1 tvg-id="CBeebiesHD.uk" tvg-name="CBeebies" tvg-country="UK" tvg-language="" tvg-logo="" group-title="",CBeebies HD
+https://vs-hls-pushb-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:cbeebies_hd/t=3840/v=pv14/b=5070016/main.m3u8
