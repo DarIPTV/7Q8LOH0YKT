@@ -81,5 +81,14 @@ http://bestbuyiptv.live:8080/live/zakaria.daraoui2/65i4ul4i/2459.m3u8
 #EXTINF:-1 tvg-ID="skysportspremiereleague.uk" tvg-name="UK: SKY SPORTS PREMIER LEAGUE HD" tvg-logo="https://www.moddingway.com/screenshots/files/226106/big.jpg" group-title="UK - Sport",UK: SKY SPORTS PREMIER LEAGUE HD
 http://bestbuyiptv.live:8080/live/zakaria.daraoui2/65i4ul4i/18.m3u8
 
-#EXTINF:-1 tvg-ID="skysportspremiereleague.uk" tvg-name="UK: SKY SPORTS PREMIER LEAGUE FHD" tvg-logo="https://www.moddingway.com/screenshots/files/226106/big.jpg" group-title="UK - Sport",UK: SKY SPORTS PREMIER LEAGUE FHD
-http://bestbuyiptv.live:8080/live/zakaria.daraoui2/65i4ul4i/8616.m3u8
+#EXTINF:-1 tvg-ID="skysportspremiereleague.uk" tvg-name="UK:  Sky Sports Premier League FHD" tvg-logo="https://www.moddingway.com/screenshots/files/226106/big.jpg" group-title="UK - Sport",UK:  Sky Sports Premier League FHD
+http://bestbuyiptv.live:8080/live/zakaria.daraoui2/65i4ul4i/114535.m3u8
+
+#EXTINF:-1 tvg-ID="btsport1.uk" tvg-name="UK: BT Sports 1 FHD" tvg-logo="https://d24j9r7lck9cin.cloudfront.net/l/o/1/1539.1565312705.png" group-title="UK - Sport",UK: BT Sports 1 FHD
+http://bestbuyiptv.live:8080/live/zakaria.daraoui2/65i4ul4i/8620.m3u8
+#EXTINF:-1 tvg-ID="btsport2.uk" tvg-name="UK: BT Sports 2 FHD" tvg-logo="https://4.bp.blogspot.com/-Ab-kjVgRpts/XA0U-sSGA0I/AAAAAAAAAiM/6DUcpJyScsM9NaBGksOa74iFiQs05BciQCEwYBhgL/s1600/BT-Sport-Extra-1-UK%2B-%2BCopie-min.jpg" group-title="UK - Sport",UK: BT Sports 2 FHD
+http://bestbuyiptv.live:8080/live/zakaria.daraoui2/65i4ul4i/8619.m3u8
+#EXTINF:-1 tvg-ID="btsport3.uk" tvg-name="UK: BT Sports 3 FHD" tvg-logo="https://d24j9r7lck9cin.cloudfront.net/l/o/5/5712.1565312749.png" group-title="UK - Sport",UK: BT Sports 3 FHD
+http://bestbuyiptv.live:8080/live/zakaria.daraoui2/65i4ul4i/8618.m3u8
+#EXTINF:-1 tvg-ID="Sky Sports 1 UK" tvg-name="UK: SKY SPORTS FHD 1" tvg-logo="https://1.bp.blogspot.com/-T3ru1vEZhU0/XFTWnzSahBI/AAAAAAAAARg/KthL9FU-ZfEdllgHYtckk1BgCU-NBFnxgCPcBGAYYCw/w260-h150-p-k-nu/Sky%2BSport%2B1%2BItaly%2BHD%2B2.jpg" group-title="UK - Sport",UK: SKY SPORTS FHD 1
+http://bestbuyiptv.live:8080/live/zakaria.daraoui2/65i4ul4i/8615.m3u8
