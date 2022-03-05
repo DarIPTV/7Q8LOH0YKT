@@ -1,6 +1,6 @@
 #EXTM3U 
 #EXTINF:-1 tvg-id="ITVUK.uk" tvg-name="ITV UK" tvg-country="UK" tvg-language="" tvg-logo="" group-title="",ITV UK
-https://sportportal1.akamaized.net/hls/live/702646/itvlive/ITV1PORTAL2/master.m3u8
+http://31.220.41.88:8081/live/itv1.stream/chunks.m3u
 #EXTINF:-1 tvg-id="BBCOneHD.uk" tvg-name="BBC One" tvg-country="UK" tvg-language="" tvg-logo="" group-title="",BBC One HD 
 https://vs-hls-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_one_hd/t=3840/v=pv14/b=5070016/main.m3u8
 #EXTINF:-1 tvg-id="BBCTwoHD.uk" tvg-name="BBC Two" tvg-country="UK" tvg-language="" tvg-logo="" group-title="",BBC Two HD
