@@ -15,7 +15,7 @@ https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/assadissa/hls_snrt/assad
 #EXTINF: -1 tvg-logo="https://www.medi1tv.ma/ar/img/footer/logo_new.png" group-title="Classic", Medi 1 TV Arabic
 http://vvn.neoredi.com/iptv/ch166?code=196151145486952&key=43561
 #EXTINF: -1 tvg-id="MBC 1 ARB" tvg-name="MBC 1 ARB" tvg-logo="https://i.imgur.com/eKBXOKd.png" group-title="Classic", MBC
-https://shls-mbc1ksa-prod-dub.shahid.net/out/v1/451b666db1fb41c7a4bbecf7b4865107/index_1.m3u8
+https://shls-mbc1ksa-ak.akamaized.net/out/v1/2fa0d315bd134cb18050f73c3a2b683b/index.mpd
 #EXTINF: -1 tvg-id="MBC 2 ARB" tvg-name="MBC 2 ARB" tvg-logo="https://i.imgur.com/KXuzL1u.png" group-title="Classic", MBC 2
 https://shls-mbc2-prod-dub.shahid.net/out/v1/b4befe19798745fe986f5a9bfba62126/index_1.m3u8
 #EXTINF: -1 tvg-id="MBC 3 ARB" tvg-name="MBC 3 ARB" tvg-logo="https://i.imgur.com/FVNVC73.png" group-title="Classic", MBC 3
