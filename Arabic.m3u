@@ -96,14 +96,16 @@ https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/al_aoula_laayoune/hls_sn
 #EXTINF:-1 tvg-id="ITVUK.uk" tvg-name="ITV1" tvg-country="UK" tvg-language="" tvg-logo="" group-title="",ITV UK
 http://www.tvxclnt.com:8080/tretvx2022/QP3J8nmeTvIZp82J/1805
 #EXTINF:-1 tvg-id="BBCOneHD.uk" tvg-name="BBC One" tvg-country="UK" tvg-language="" tvg-logo="" group-title="",BBC One HD 
-https://vs-hls-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_one_hd/t=3840/v=pv14/b=5070016/main.m3u8
+https://vs-cmaf-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_hd/iptv_hd_abr_v1.mpd
 #EXTINF:-1 tvg-id="BBCTwoHD.uk" tvg-name="BBC Two" tvg-country="UK" tvg-language="" tvg-logo="" group-title="",BBC Two HD
-https://vs-hls-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_two_hd/t=3840/v=pv14/b=5070016/main.m3u8
+https://vs-cmaf-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_two_hd/iptv_hd_abr_v1.mpd
+#EXTINF:-1 tvg-id="BBCThreeHD.uk" tvg-name="BBC Three" tvg-country="UK" tvg-language="" tvg-logo="" group-title="",BBC Three HD
+https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_three_hd/iptv_hd_abr_v1.mpd
 #EXTINF:-1 tvg-id="BBCNewsHD.uk" tvg-name="BBC News" tvg-country="UK" tvg-language="" tvg-logo="" group-title="",BBC News HD
-https://vs-hls-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
+https://vs-cmaf-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/iptv_hd_abr_v1.mpd
 #EXTINF:-1 tvg-id="BBCFourHD.uk" tvg-name="BBC Four" tvg-country="UK" tvg-language="" tvg-logo="" group-title="",BBC Four HD
-https://vs-hls-pushb-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_four_hd/t=3840/v=pv14/b=5070016/main.m3u8
+https://vs-cmaf-pushb-uk.live.fastly.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:bbc_four_hd/iptv_hd_abr_v1.mpd
 #EXTINF:-1 tvg-id="CBBCHD.uk" tvg-name="CBBC" tvg-country="UK" tvg-language="" tvg-logo="" group-title="",CBBC HD 
-https://vs-hls-pushb-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:cbbc_hd/t=3840/v=pv14/b=5070016/main.m3u8
+https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:cbbc_hd/iptv_hd_abr_v1.mpd
 #EXTINF:-1 tvg-id="CBeebiesHD.uk" tvg-name="CBeebies" tvg-country="UK" tvg-language="" tvg-logo="" group-title="",CBeebies HD
-https://vs-hls-pushb-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:cbeebies_hd/t=3840/v=pv14/b=5070016/main.m3u8
+https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:cbeebies_hd/iptv_hd_abr_v1.mpd
