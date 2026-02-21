@@ -5,6 +5,8 @@ https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/al_aoula_inter/hls_snrt/
 https://d2qh3gh0k5vp3v.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-n6pess5lwbghr/2M_ES.m3u8
 #EXTINF: -1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3f/Arryadialogo.jpg" group-title="Classic", Arriadia
 http://cdnamd-hls-globecast.akamaized.net/live/ramdisk/arriadia/hls_snrt/index.m3u8
+#EXTINF: -1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fc/Arrabiaa.jpg" group-title="Classic", Attakafiya (Athaqafia)
+https://cdn.live.easybroadcast.io/abr_corp/73_arrabia_hthcj4p/playlist_dvr.m3u8
 #EXTINF: -1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/09/Almaghribiax2.png" group-title="Classic", Al Maghribia
 https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/al_maghribia_snrt/hls_snrt/index.m3u8
 #EXTINF: -1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7e/Assadissa.png" group-title="Classic", Assadissa
@@ -132,3 +134,5 @@ https://dmisxthvll.cdn.mgmlcdn.com/dubaitvht/smil:dubaitv.stream.smil/playlist.m
 https://dminnvll.cdn.mgmlcdn.com/dubaione/smil:dubaione.stream.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Bqxb5vc.png" group-title="Entertainment", Sama Dubai (1080p)
 https://dmieigthvll.cdn.mgmlcdn.com/samadubaiht/smil:samadubai.stream.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/5dNJlLo.png" group-title="Documentary", Al Jazeera Documentary (1080p) [May be geo-blocked]
+https://live-hls-apps-ajd-fa.getaj.net/AJD/index.m3u8
