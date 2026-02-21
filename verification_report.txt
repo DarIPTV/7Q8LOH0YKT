@@ -1,0 +1,119 @@
+🔬 Comprehensive Channel Verification
+
+This will take a few minutes - testing actual stream playback...
+
+📋 Testing 54 channels...
+
+🔍 Al Aoula... ✗ BROKEN
+🔍 2M Monde... ✅ WORKING (verified with ffprobe)
+🔍 Arriadia... ✗ BROKEN
+🔍 Attakafiya... ✗ Invalid URL
+🔍 Al Maghribia... ✗ BROKEN
+🔍 Assadissa... ✗ BROKEN
+🔍 Medi 1 TV Arabic... ✅ WORKING (verified with ffprobe)
+🔍 MBC... ✅ WORKING (verified with ffprobe)
+🔍 MBC 2... ✗ BROKEN
+🔍 MBC 3... ✗ BROKEN
+🔍 MBC 4... ✅ WORKING (verified with ffprobe)
+🔍 MBC 5... ✅ WORKING (verified with ffprobe)
+🔍 MBC Action... ✗ BROKEN
+🔍 MBC Drama... ✅ WORKING (verified with ffprobe)
+🔍 MBC Max... ✗ BROKEN
+🔍 MBC Bollywood... ✅ WORKING (verified with ffprobe)
+🔍 MBC Plus Drama... ✗ BROKEN
+🔍 MBC Plus Variety... ✗ BROKEN
+🔍 Wanasah... ✅ WORKING (verified with ffprobe)
+🔍 MBC Masr 1... ✗ BROKEN
+🔍 MBC Masr 2... ✅ WORKING (verified with ffprobe)
+🔍 LBC International... ✗ BROKEN
+🔍 MTV Lebanon... ✗ BROKEN
+🔍 National Geographic Abu Dhabi... ⚠️  HTTP OK (couldn't verify stream data)
+🔍 Rotana Cinema HD... ✗ BROKEN
+🔍 Rotana Classic HD... ✗ BROKEN
+🔍 Rotana Comedy HD... ✗ BROKEN
+🔍 Rotana Drama HD... ✗ BROKEN
+🔍 Rotana Khalijia HD... ✗ BROKEN
+🔍 Rotana Clip... ✗ BROKEN
+🔍 Rotana Music... ✗ BROKEN
+🔍 Rotana Kids... ✗ BROKEN
+🔍 Spacetoon... ✗ BROKEN
+🔍 Cartoon Network... ✗ BROKEN
+🔍 Nile Drama... ✗ BROKEN
+🔍 Nile Cinema... ✗ BROKEN
+🔍 Nessma... ✗ BROKEN
+🔍 Mazzika... ✗ BROKEN
+🔍 CBC... ✅ WORKING (verified with ffprobe)
+🔍 CBC Drama... ✅ WORKING (verified with ffprobe)
+🔍 Dubai TV... ✗ BROKEN
+🔍 Dubai One... ✗ BROKEN
+🔍 Sama Dubai... ✗ BROKEN
+🔍 Abu Dhabi TV... ⚠️  HTTP OK (couldn't verify stream data)
+🔍 Abu Dhabi Drama... ✗ BROKEN
+🔍 Al Aoula Laayoune... ✗ BROKEN
+🔍 ITV UK... ✗ BROKEN
+🔍 BBC One HD... ✗ BROKEN
+🔍 BBC Two HD... ⚠️  HTTP OK (couldn't verify stream data)
+🔍 BBC Three HD... ⚠️  HTTP OK (couldn't verify stream data)
+🔍 BBC News HD... ⚠️  HTTP OK (couldn't verify stream data)
+🔍 BBC Four HD... ⚠️  HTTP OK (couldn't verify stream data)
+🔍 CBBC HD... ⚠️  HTTP OK (couldn't verify stream data)
+🔍 CBeebies HD... ⚠️  HTTP OK (couldn't verify stream data)
+
+============================================================
+📊 RESULTS: 19 working, 35 broken
+============================================================
+
+✅ WORKING CHANNELS:
+  • 2M Monde
+    https://d2qh3gh0k5vp3v.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68...
+  • Medi 1 TV Arabic
+    https://streaming2.medi1tv.com/live/smil:medi1ar.smil/playlist.m3u8...
+  • MBC
+    https://shls-mbc1na-prod-dub.shahid.net/out/v1/84ab37e99d6e4b16b33c6600f94f6ccb/...
+  • MBC 4
+    https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-4/24f134f1cd63db9346439e9...
+  • MBC 5
+    https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-5/ee6b000cee0629411b666ab...
+  • MBC Drama
+    https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-drama/2c28a458e2f3253e678...
+  • MBC Bollywood
+    https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-bollywood/546eb40d7dcf9a2...
+  • Wanasah
+    https://shd-gcp-live.edgenextcdn.net/live/bitmovin-wanasah/13e82ea6232fa647c43b2...
+  • MBC Masr 2
+    https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr-2/754931856515075b0a...
+  • National Geographic Abu Dhabi
+    https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/national_geo/nat...
+  • CBC
+    https://flu.systemnet.tv/CBCDrama/index.m3u8...
+  • CBC Drama
+    https://flu.systemnet.tv/CBCDrama/index.m3u8...
+  • Abu Dhabi TV
+    https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/emarat_tv/emarat...
+  • BBC Two HD
+    https://vs-cmaf-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_two_hd...
+  • BBC Three HD
+    https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_three...
+  • BBC News HD
+    https://vs-cmaf-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_c...
+  • BBC Four HD
+    https://vs-cmaf-pushb-uk.live.fastly.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:bb...
+  • CBBC HD
+    https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:cbbc_hd/i...
+  • CBeebies HD
+    https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:cbeebies_...
+
+❌ BROKEN CHANNELS (35):
+  • Al Aoula: Connection failed
+  • Arriadia: Connection failed
+  • Attakafiya: Invalid URL
+  • Al Maghribia: Connection failed
+  • Assadissa: Connection failed
+  • MBC 2: Connection failed
+  • MBC 3: Connection failed
+  • MBC Action: Connection failed
+  • MBC Max: Connection failed
+  • MBC Plus Drama: Connection failed
+  ... and 25 more
+
+💡 Recommendation: 19/54 channels working
