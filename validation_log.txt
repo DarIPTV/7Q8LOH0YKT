@@ -1,0 +1,234 @@
+🔍 IPTV Channel Validator & Auto-Fixer
+
+📋 Parsing Arabic.m3u...
+   Found 54 channels
+
+🔎 Checking channel availability...
+[1/54] Al Aoula... ✗ BROKEN
+[2/54] 2M Monde... ✗ BROKEN
+[3/54] Arriadia... ✗ BROKEN
+[4/54] Attakafiya... ✗ BROKEN
+[5/54] Al Maghribia... ✗ BROKEN
+[6/54] Assadissa... ✗ BROKEN
+[7/54] Medi 1 TV Arabic...   ✗ Medi 1 TV Arabic: HTTPConnectionPool(host='vvn.neoredi.com', port=80
+✗ BROKEN
+[8/54] MBC... ✓
+[9/54] MBC 2...   ✗ MBC 2: ('Connection aborted.', ConnectionResetError(54, '
+✗ BROKEN
+[10/54] MBC 3... ✗ BROKEN
+[11/54] MBC 4...   ✗ MBC 4: ('Connection aborted.', ConnectionResetError(54, '
+✗ BROKEN
+[12/54] MBC 5... ✗ BROKEN
+[13/54] MBC Action... ✗ BROKEN
+[14/54] MBC Drama...   ✗ MBC Drama: HTTPSConnectionPool(host='shls-mbcdramaksa-prod-du
+✗ BROKEN
+[15/54] MBC Max...   ✗ MBC Max: HTTPSConnectionPool(host='shls-mbcmax-prod-dub.sha
+✗ BROKEN
+[16/54] MBC Bollywood... ✗ BROKEN
+[17/54] MBC Plus Drama... ✗ BROKEN
+[18/54] MBC Plus Variety...   ✗ MBC Plus Variety: HTTPConnectionPool(host='vvn.neoredi.com', port=80
+✗ BROKEN
+[19/54] Wanasah... ✗ BROKEN
+[20/54] MBC Masr 1... ✗ BROKEN
+[21/54] MBC Masr 2... ✗ BROKEN
+[22/54] LBC International...   ✗ LBC International: HTTPSConnectionPool(host='rotana.hibridmedia.com',
+✗ BROKEN
+[23/54] MTV Lebanon...   ✗ MTV Lebanon: HTTPConnectionPool(host='vvn.neoredi.com', port=80
+✗ BROKEN
+[24/54] National Geographic Abu Dhabi...   ✗ National Geographic Abu Dhabi: HTTPSConnectionPool(host='admdn2.cdn.mangomolo.com
+✗ BROKEN
+[25/54] Rotana Cinema HD...   ✗ Rotana Cinema HD: HTTPSConnectionPool(host='rotana.hibridmedia.com',
+✗ BROKEN
+[26/54] Rotana Classic HD...   ✗ Rotana Classic HD: HTTPSConnectionPool(host='rotana.hibridmedia.com',
+✗ BROKEN
+[27/54] Rotana Comedy HD...   ✗ Rotana Comedy HD: HTTPSConnectionPool(host='rotana.hibridmedia.com',
+✗ BROKEN
+[28/54] Rotana Drama HD...   ✗ Rotana Drama HD: HTTPSConnectionPool(host='rotana.hibridmedia.com',
+✗ BROKEN
+[29/54] Rotana Khalijia HD...   ✗ Rotana Khalijia HD: HTTPSConnectionPool(host='rotana.hibridmedia.com',
+✗ BROKEN
+[30/54] Rotana Clip...   ✗ Rotana Clip: HTTPConnectionPool(host='vvn.neoredi.com', port=80
+✗ BROKEN
+[31/54] Rotana Music...   ✗ Rotana Music: HTTPConnectionPool(host='vvn.neoredi.com', port=80
+✗ BROKEN
+[32/54] Rotana Kids...   ✗ Rotana Kids: HTTPSConnectionPool(host='rotana.hibridmedia.com',
+✗ BROKEN
+[33/54] Spacetoon...   ✗ Spacetoon: HTTPSConnectionPool(host='streams.spacetoon.com', 
+✗ BROKEN
+[34/54] Cartoon Network...   ✗ Cartoon Network: HTTPConnectionPool(host='vvn.neoredi.com', port=80
+✗ BROKEN
+[35/54] Nile Drama...   ✗ Nile Drama: HTTPConnectionPool(host='vvn.neoredi.com', port=80
+✗ BROKEN
+[36/54] Nile Cinema...   ✗ Nile Cinema: HTTPConnectionPool(host='vvn.neoredi.com', port=80
+✗ BROKEN
+[37/54] Nessma...   ✗ Nessma: HTTPConnectionPool(host='vvn.neoredi.com', port=80
+✗ BROKEN
+[38/54] Mazzika...   ✗ Mazzika: HTTPConnectionPool(host='vvn.neoredi.com', port=80
+✗ BROKEN
+[39/54] CBC...   ✗ CBC: HTTPConnectionPool(host='vvn.neoredi.com', port=80
+✗ BROKEN
+[40/54] CBC Drama...   ✗ CBC Drama: HTTPConnectionPool(host='vvn.neoredi.com', port=80
+✗ BROKEN
+[41/54] Dubai TV...   ✗ Dubai TV: HTTPSConnectionPool(host='dmisxthvll.cdn.mangomolo
+✗ BROKEN
+[42/54] Dubai One...   ✗ Dubai One: HTTPSConnectionPool(host='dminnvll.cdn.mangomolo.c
+✗ BROKEN
+[43/54] Sama Dubai...   ✗ Sama Dubai: HTTPSConnectionPool(host='dmieigthvll.cdn.mangomol
+✗ BROKEN
+[44/54] Abu Dhabi TV...   ✗ Abu Dhabi TV: HTTPSConnectionPool(host='admdn2.cdn.mangomolo.com
+✗ BROKEN
+[45/54] Abu Dhabi Drama...   ✗ Abu Dhabi Drama: HTTPSConnectionPool(host='admdn5.cdn.mangomolo.com
+✗ BROKEN
+[46/54] Al Aoula Laayoune... ✗ BROKEN
+[47/54] ITV UK...   ✗ ITV UK: HTTPConnectionPool(host='www.tvxclnt.com', port=80
+✗ BROKEN
+[48/54] BBC One HD... ✗ BROKEN
+[49/54] BBC Two HD... ✓
+[50/54] BBC Three HD... ✓
+[51/54] BBC News HD... ✓
+[52/54] BBC Four HD... ✓
+[53/54] CBBC HD... ✓
+[54/54] CBeebies HD... ✓
+
+📊 Results: 7 working, 47 broken
+
+🔧 Searching for replacements...
+
+  Searching for: Al Aoula...
+    ✗ No replacement found
+  Searching for: 2M Monde...
+    ✗ Replacement also broken
+  Searching for: Arriadia...
+    ✗ No replacement found
+  Searching for: Attakafiya...
+    ✗ No replacement found
+  Searching for: Al Maghribia...
+  ✗ Al Maghribia: HTTPSConnectionPool(host='viamotionhsi.netplus.ch'
+    ✗ Replacement also broken
+  Searching for: Assadissa...
+    ✗ No replacement found
+  Searching for: Medi 1 TV Arabic...
+    ✓ Found working replacement
+  Searching for: MBC 2...
+    ✗ No replacement found
+  Searching for: MBC 3...
+    ✗ No replacement found
+  Searching for: MBC 4...
+    ✓ Found working replacement
+  Searching for: MBC 5...
+    ✓ Found working replacement
+  Searching for: MBC Action...
+    ✗ No replacement found
+  Searching for: MBC Drama...
+    ✓ Found working replacement
+  Searching for: MBC Max...
+    ✗ No replacement found
+  Searching for: MBC Bollywood...
+    ✓ Found working replacement
+  Searching for: MBC Plus Drama...
+    ✗ No replacement found
+  Searching for: MBC Plus Variety...
+    ✗ No replacement found
+  Searching for: Wanasah...
+    ✓ Found working replacement
+  Searching for: MBC Masr 1...
+    ✗ No replacement found
+  Searching for: MBC Masr 2...
+    ✓ Found working replacement
+  Searching for: LBC International...
+    ✗ Replacement also broken
+  Searching for: MTV Lebanon...
+    ✗ No replacement found
+  Searching for: National Geographic Abu Dhabi...
+    ✓ Found working replacement
+  Searching for: Rotana Cinema HD...
+    ✗ Replacement also broken
+  Searching for: Rotana Classic HD...
+    ✗ Replacement also broken
+  Searching for: Rotana Comedy HD...
+    ✗ Replacement also broken
+  Searching for: Rotana Drama HD...
+    ✗ Replacement also broken
+  Searching for: Rotana Khalijia HD...
+    ✗ Replacement also broken
+  Searching for: Rotana Clip...
+    ✗ Replacement also broken
+  Searching for: Rotana Music...
+    ✗ Replacement also broken
+  Searching for: Rotana Kids...
+    ✗ No replacement found
+  Searching for: Spacetoon...
+    ✗ Replacement also broken
+  Searching for: Cartoon Network...
+    ✗ No replacement found
+  Searching for: Nile Drama...
+    ✗ No replacement found
+  Searching for: Nile Cinema...
+    ✗ No replacement found
+  Searching for: Nessma...
+    ✗ No replacement found
+  Searching for: Mazzika...
+    ✗ No replacement found
+  Searching for: CBC...
+    ✓ Found working replacement
+  Searching for: CBC Drama...
+    ✓ Found working replacement
+  Searching for: Dubai TV...
+    ✗ No replacement found
+  Searching for: Dubai One...
+    ✗ No replacement found
+  Searching for: Sama Dubai...
+    ✗ No replacement found
+  Searching for: Abu Dhabi TV...
+    ✓ Found working replacement
+  Searching for: Abu Dhabi Drama...
+    ✗ No replacement found
+  Searching for: Al Aoula Laayoune...
+    ✗ No replacement found
+  Searching for: ITV UK...
+    ✗ No replacement found
+  Searching for: BBC One HD...
+    ✗ No replacement found
+
+✨ Fixed 11/47 broken channels
+
+✓ Backup created: backups/Arabic_20260221_110329.m3u
+✓ Updated Arabic.m3u
+
+⚠️  36 channels still broken:
+   - Al Aoula
+   - 2M Monde
+   - Arriadia
+   - Attakafiya
+   - Al Maghribia
+   - Assadissa
+   - MBC 2
+   - MBC 3
+   - MBC Action
+   - MBC Max
+   - MBC Plus Drama
+   - MBC Plus Variety
+   - MBC Masr 1
+   - LBC International
+   - MTV Lebanon
+   - Rotana Cinema HD
+   - Rotana Classic HD
+   - Rotana Comedy HD
+   - Rotana Drama HD
+   - Rotana Khalijia HD
+   - Rotana Clip
+   - Rotana Music
+   - Rotana Kids
+   - Spacetoon
+   - Cartoon Network
+   - Nile Drama
+   - Nile Cinema
+   - Nessma
+   - Mazzika
+   - Dubai TV
+   - Dubai One
+   - Sama Dubai
+   - Abu Dhabi Drama
+   - Al Aoula Laayoune
+   - ITV UK
+   - BBC One HD
