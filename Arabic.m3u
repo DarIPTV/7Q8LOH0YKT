@@ -6,7 +6,7 @@ https://d2qh3gh0k5vp3v.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 #EXTINF: -1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3f/Arryadialogo.jpg" group-title="Classic", Arriadia
 http://192.168.8.131:9000/arriadia.m3u8
 #EXTINF: -1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fc/Arrabiaa.jpg" group-title="Classic", Attakafiya (Athaqafia)
-https://cdn.live.easybroadcast.io/abr_corp/73_arrabia_hthcj4p/playlist_dvr.m3u8
+http://192.168.8.131:9000/attakafiya.m3u8
 #EXTINF: -1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/09/Almaghribiax2.png" group-title="Classic", Al Maghribia
 http://192.168.8.131:9000/al-maghribia.m3u8
 #EXTINF: -1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7e/Assadissa.png" group-title="Classic", Assadissa
