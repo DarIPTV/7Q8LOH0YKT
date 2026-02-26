@@ -45,8 +45,8 @@ print(count)
     
     TOTAL=$(python3 -c "import json; d=json.load(open('snrt_streams.json')); print(len(d))" 2>/dev/null)
     echo "[$(date '+%Y-%m-%d %H:%M:%S')] 📊 Fresh tokens: $FRESH/$TOTAL channels"
-    echo "[$(date '+%Y-%m-%d %H:%M:%S')] ⏰ Next refresh in 3 minutes..."
+    echo "[$(date '+%Y-%m-%d %H:%M:%S')] ⏰ Next refresh in 2 minutes..."
     echo ""
     
-    sleep 180
+    sleep 120
 done
