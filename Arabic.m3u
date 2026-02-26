@@ -138,3 +138,32 @@ https://dminnvll.cdn.mgmlcdn.com/dubaione/smil:dubaione.stream.smil/playlist.m3u
 https://dmieigthvll.cdn.mgmlcdn.com/samadubaiht/smil:samadubai.stream.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/5dNJlLo.png" group-title="Documentary", Al Jazeera Documentary (1080p) [May be geo-blocked]
 https://live-hls-apps-ajd-fa.getaj.net/AJD/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/k2LJSaQ.png" group-title="News", Sky News Arabia (1080p)
+https://live-stream.skynewsarabia.com/c-horizontal-channel/horizontal-stream/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/3gDmQZF.png" group-title="News", RT Arabic (1080p) [May be geo-blocked]
+https://rt-arb.rttv.com/dvr/rtarab/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/uXJKZyN.png" group-title="News", Al Ghad TV (1080p)
+https://eazyvwqssi.erbvr.com/alghadtv/alghadtv.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/7h2D5Cz.png" group-title="News", Al Mayadeen (576p)
+https://mdnlv.cdn.octivid.com/almdn/smil:mpegts.stream.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://www.medi1tv.ma/ar/img/footer/logo_new.png" group-title="Morocco", Medi 1 TV Maghreb (720p)
+https://streaming2.medi1tv.com/live/smil:medi1tv.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/3QZJQ3b.png" group-title="Entertainment", OTV Lebanon (1080p)
+https://otv.hibridcdn.net/otv/tv_abr/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/nQYHr0R.png" group-title="Entertainment", Al Jadeed Lebanon (1080p)
+http://185.9.2.18/chid_391/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/6QlKl7p.png" group-title="Entertainment", Future TV Lebanon (1080p)
+https://live.kwikmotion.com/futurelive/ftv.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/LpYGBf7.png" group-title="Entertainment", LTV Lebanon (720p)
+https://p-ltv.akamaized.net/ltv/ltv.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/8JwQb5u.png" group-title="Entertainment", Al Manar (576p) [May be geo-blocked]
+https://edge.fastpublish.me/live/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Rk9XOQK.png" group-title="Entertainment", CBC Sofra (576p)
+https://flu.systemnet.tv/CBCSofra/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/YmJLVqn.png" group-title="Entertainment", MBC Masr (1080p)
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr/956eac069c78a35d47245db6cdbb1575/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/YmJLVqn.png" group-title="Entertainment", MBC Masr Drama (1080p)
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr-drama/567b703c19ede6598222de81b0e4508b/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/P3fIxPh.png" group-title="Entertainment", Mekameleen TV (1080p)
+https://mn-nl.mncdn.com/mekameleen/smil:mekameleentv.smil/playlist.m3u8
