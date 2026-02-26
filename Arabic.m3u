@@ -2,7 +2,7 @@
 #EXTINF: -1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e4/%D8%B4%D8%B9%D8%A7%D8%B1_%D9%82%D9%86%D8%A7%D8%A9_%D8%A7%D9%84%D8%A3%D9%88%D9%84%D9%89_Al_Aoula_Tv_Logo.png" group-title="Classic", Al Aoula
 http://192.168.8.131:9000/al-aoula.m3u8
 #EXTINF: -1  tvg-name="2M Maroc" tvg-logo="https://i.imgur.com/eE1SdyA.png" group-title="Morocco", 2M Maroc
-http://192.168.8.131:9000/2m.m3u8
+https://d2qh3gh0k5vp3v.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-n6pess5lwbghr/2M_ES.m3u8
 #EXTINF: -1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3f/Arryadialogo.jpg" group-title="Classic", Arriadia
 http://192.168.8.131:9000/arriadia.m3u8
 #EXTINF: -1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fc/Arrabiaa.jpg" group-title="Classic", Attakafiya (Athaqafia)
