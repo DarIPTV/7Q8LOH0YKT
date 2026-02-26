@@ -29,12 +29,9 @@ DEFAULT_CHANNELS = {
 # Static channels that need custom headers (proxied fully — playlists + segments)
 STATIC_CHANNELS = {
     "2m": {
-        "master_url": "https://cdn-globecast.akamaized.net/live/eds/2m_monde/hls_video_ts_tuhawxpiemz257adfc/2m_monde.m3u8",
-        "base_url":   "https://cdn-globecast.akamaized.net/live/eds/2m_monde/hls_video_ts_tuhawxpiemz257adfc/",
-        "headers": {
-            "Referer":    "http://www.radio2m.ma/",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0"
-        }
+        "master_url": "https://stream-lb.livemediama.com/2m/hls/master.m3u8",
+        "base_url":   "https://stream-lb.livemediama.com/2m/hls/",
+        "headers": {}
     }
 }
 
@@ -137,15 +134,19 @@ def handle_static_channel(client_socket, path, channel_id):
     headers = config['headers']
     base_url = config['base_url']
 
-    # /2m.m3u8  → master
-    # /2m/<file> → sub-resource (variant playlist or TS segment)
+    # /2m.m3u8         → master playlist
+    # /2m/<subpath>    → variant playlist or TS segment (subpath may include subdirs)
     parts = path.strip('/').split('/', 1)
     if len(parts) == 1:
         upstream_url = config['master_url']
         filename = None
+        # Effective proxy directory for relative URL resolution in master
+        proxy_dir = f"/{channel_id}/"
     else:
         filename = parts[1]
         upstream_url = base_url + filename
+        # Preserve subdirectory context (e.g. /2m/stream_2/ for variant playlists)
+        proxy_dir = path.rsplit('/', 1)[0] + '/'
 
     try:
         r = requests.get(upstream_url, headers=headers, timeout=15)
@@ -159,7 +160,8 @@ def handle_static_channel(client_socket, path, channel_id):
         is_m3u8 = '.m3u8' in (filename or 'master.m3u8') or 'mpegurl' in content_type
 
         if is_m3u8:
-            # Rewrite all relative URLs in the playlist to go back through this proxy
+            # Rewrite all relative URLs in the playlist to go back through this proxy.
+            # proxy_dir is already set above based on whether this is master or sub-resource.
             lines = r.text.split('\n')
             rewritten = []
             for line in lines:
@@ -168,13 +170,19 @@ def handle_static_channel(client_socket, path, channel_id):
                     rewritten.append(line)
                 else:
                     if line.startswith('http'):
-                        # Already absolute — extract just the filename (all resources are flat)
-                        leaf = line.split('/')[-1]
-                        rewritten.append(f"/{channel_id}/{leaf}")
+                        # Absolute CDN URL — map to proxy path by stripping base_url prefix
+                        if line.startswith(base_url):
+                            sub = line[len(base_url):]
+                            rewritten.append(f"/{channel_id}/{sub}")
+                        else:
+                            leaf = line.split('/')[-1]
+                            rewritten.append(f"/{channel_id}/{leaf}")
+                    elif line.startswith('/'):
+                        # Root-relative — keep as-is (shouldn't happen but just in case)
+                        rewritten.append(line)
                     else:
-                        # Relative — strip any subdirectory just in case
-                        leaf = line.lstrip('/')
-                        rewritten.append(f"/{channel_id}/{leaf}")
+                        # Relative to current directory — resolve properly
+                        rewritten.append(proxy_dir + line)
             body = '\n'.join(rewritten).encode('utf-8')
             send_response(client_socket, "200 OK", "application/vnd.apple.mpegurl", body)
             print(f"  ✅ {channel_id}/{filename or 'master'} ({len(body)}b, rewritten)", flush=True)
