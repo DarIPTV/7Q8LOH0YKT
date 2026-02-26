@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Minimal SNRT Proxy - Raw socket implementation
+Minimal SNRT + Header Proxy - Raw socket implementation
 """
 import socket
 import threading
@@ -24,6 +24,18 @@ DEFAULT_CHANNELS = {
     "tamazight": "https://cdn.live.easybroadcast.io/abr_corp/73_tamazight_tccybxt/playlist_dvr.m3u8",
     "laayoune": "https://cdn.live.easybroadcast.io/abr_corp/73_laayoune_pgagr52/playlist_dvr.m3u8",
     "attakafiya": "https://cdn.live.easybroadcast.io/abr_corp/73_arrabia_hthcj4p/playlist_dvr.m3u8"
+}
+
+# Static channels that need custom headers (proxied fully — playlists + segments)
+STATIC_CHANNELS = {
+    "2m": {
+        "master_url": "https://cdn-globecast.akamaized.net/live/eds/2m_monde/hls_video_ts_tuhawxpiemz257adfc/2m_monde.m3u8",
+        "base_url":   "https://cdn-globecast.akamaized.net/live/eds/2m_monde/hls_video_ts_tuhawxpiemz257adfc/",
+        "headers": {
+            "Referer":    "http://www.radio2m.ma/",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
+    }
 }
 
 def load_channels():
@@ -56,7 +68,7 @@ def load_channels():
 CHANNELS = load_channels()
 
 def fetch_m3u8(url):
-    """Fetch M3U8 playlist with proper headers"""
+    """Fetch M3U8 playlist with SNRT headers"""
     headers = {
         'Referer': 'https://snrt.player.easybroadcast.io/',
         'Origin': 'https://snrtlive.ma',
@@ -107,6 +119,77 @@ def reload_channels():
     global CHANNELS
     CHANNELS = load_channels()
 
+
+def send_response(sock, status, content_type, body_bytes):
+    response = (
+        f"HTTP/1.1 {status}\r\n"
+        f"Content-Type: {content_type}\r\n"
+        f"Content-Length: {len(body_bytes)}\r\n"
+        f"Access-Control-Allow-Origin: *\r\n"
+        f"\r\n"
+    )
+    sock.sendall(response.encode('utf-8') + body_bytes)
+
+
+def handle_static_channel(client_socket, path, channel_id):
+    """Handle a fully-proxied static channel (e.g. 2M) — adds required headers"""
+    config = STATIC_CHANNELS[channel_id]
+    headers = config['headers']
+    base_url = config['base_url']
+
+    # /2m.m3u8  → master
+    # /2m/<file> → sub-resource (variant playlist or TS segment)
+    parts = path.strip('/').split('/', 1)
+    if len(parts) == 1:
+        upstream_url = config['master_url']
+        filename = None
+    else:
+        filename = parts[1]
+        upstream_url = base_url + filename
+
+    try:
+        r = requests.get(upstream_url, headers=headers, timeout=15)
+        if r.status_code != 200:
+            body = f"Upstream {r.status_code}".encode()
+            send_response(client_socket, "503 Service Unavailable", "text/plain", body)
+            print(f"  ❌ {channel_id}/{filename}: upstream {r.status_code}", flush=True)
+            return
+
+        content_type = r.headers.get('content-type', 'application/octet-stream')
+        is_m3u8 = '.m3u8' in (filename or 'master.m3u8') or 'mpegurl' in content_type
+
+        if is_m3u8:
+            # Rewrite all relative URLs in the playlist to go back through this proxy
+            lines = r.text.split('\n')
+            rewritten = []
+            for line in lines:
+                line = line.rstrip('\r')
+                if line.startswith('#') or not line.strip():
+                    rewritten.append(line)
+                else:
+                    if line.startswith('http'):
+                        # Already absolute — extract just the filename (all resources are flat)
+                        leaf = line.split('/')[-1]
+                        rewritten.append(f"/{channel_id}/{leaf}")
+                    else:
+                        # Relative — strip any subdirectory just in case
+                        leaf = line.lstrip('/')
+                        rewritten.append(f"/{channel_id}/{leaf}")
+            body = '\n'.join(rewritten).encode('utf-8')
+            send_response(client_socket, "200 OK", "application/vnd.apple.mpegurl", body)
+            print(f"  ✅ {channel_id}/{filename or 'master'} ({len(body)}b, rewritten)", flush=True)
+        else:
+            # Binary (TS segment) — pass straight through
+            body = r.content
+            send_response(client_socket, "200 OK", content_type, body)
+            print(f"  ✅ {channel_id}/{filename} ({len(body)}b, passthrough)", flush=True)
+
+    except Exception as e:
+        body = str(e).encode()
+        send_response(client_socket, "503 Service Unavailable", "text/plain", body)
+        print(f"  ❌ {channel_id}/{filename}: {e}", flush=True)
+
+
 def handle_client(client_socket, addr):
     """Handle incoming client connection"""
     try:
@@ -123,6 +206,14 @@ def handle_client(client_socket, addr):
             return
         
         path = request_line.split()[1]
+
+        # --- Static / header-proxied channels (e.g. /2m.m3u8, /2m/<file>) ---
+        # Determine channel prefix: /2m.m3u8 → "2m", /2m/foo.ts → "2m"
+        path_clean = path.strip('/')
+        static_channel_id = path_clean.split('/')[0].replace('.m3u8', '')
+        if static_channel_id in STATIC_CHANNELS:
+            handle_static_channel(client_socket, path, static_channel_id)
+            return
         
         # Reload tokens endpoint
         if path == "/reload":
@@ -141,7 +232,7 @@ def handle_client(client_socket, addr):
             response = f"HTTP/1.1 200 OK\r\nContent-Type: application/vnd.apple.mpegurl\r\nContent-Length: {len(content)}\r\n\r\n{content}"
             client_socket.sendall(response.encode('utf-8'))
         
-        # Channel request
+        # SNRT channel request
         else:
             channel_id = path.strip('/').replace('.m3u8', '')
             if channel_id in CHANNELS:
@@ -189,7 +280,7 @@ def auto_reload_tokens():
                 print(f"⚠️  Auto-reload error: {e}", flush=True)
 
 def main():
-    print("🚀 Starting SNRT Simple Proxy...", flush=True)
+    print("🚀 Starting SNRT + Header Proxy...", flush=True)
     
     # Create socket
     server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -208,7 +299,7 @@ def main():
     
     print(f"""
 ╔══════════════════════════════════════════════════════════════╗
-║          SNRT Simple Proxy - Running                        ║
+║          SNRT + Header Proxy - Running                      ║
 ╠══════════════════════════════════════════════════════════════╣
 ║  Port:      {PORT}                                           ║
 ║  Playlist:  http://192.168.8.131:{PORT}/playlist.m3u         ║
