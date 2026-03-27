@@ -1,18 +1,18 @@
 #EXTM3U 
 #EXTINF: -1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e4/%D8%B4%D8%B9%D8%A7%D8%B1_%D9%82%D9%86%D8%A7%D8%A9_%D8%A7%D9%84%D8%A3%D9%88%D9%84%D9%89_Al_Aoula_Tv_Logo.png" group-title="Classic", Al Aoula
-http://192.168.8.131:9000/al-aoula.m3u8
+http://192.168.8.236:9000/al-aoula.m3u8
 #EXTINF: -1  tvg-name="2M Maroc" tvg-logo="https://i.imgur.com/eE1SdyA.png" group-title="Morocco", 2M Maroc
-http://192.168.8.131:9000/2m.m3u8
+http://192.168.8.236:9000/2m.m3u8
 #EXTINF: -1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3f/Arryadialogo.jpg" group-title="Classic", Arriadia
-http://192.168.8.131:9000/arriadia.m3u8
+http://192.168.8.236:9000/arriadia.m3u8
 #EXTINF: -1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fc/Arrabiaa.jpg" group-title="Classic", Attakafiya (Athaqafia)
-http://192.168.8.131:9000/attakafiya.m3u8
+http://192.168.8.236:9000/attakafiya.m3u8
 #EXTINF: -1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/09/Almaghribiax2.png" group-title="Classic", Al Maghribia
-http://192.168.8.131:9000/al-maghribia.m3u8
+http://192.168.8.236:9000/al-maghribia.m3u8
 #EXTINF: -1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7e/Assadissa.png" group-title="Classic", Assadissa
-http://192.168.8.131:9000/assadissa.m3u8
+http://192.168.8.236:9000/assadissa.m3u8
 #EXTINF: -1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/6f/Tamazight_TV.png" group-title="Classic", Tamazight
-http://192.168.8.131:9000/tamazight.m3u8
+http://192.168.8.236:9000/tamazight.m3u8
 #EXTINF: -1 tvg-logo="https://www.medi1tv.ma/ar/img/footer/logo_new.png" group-title="Classic", Medi 1 TV Arabic
 https://streaming2.medi1tv.com/live/smil:medi1ar.smil/playlist.m3u8
 #EXTINF: -1 tvg-id="MBC 1 ARB" tvg-name="MBC 1 ARB" tvg-logo="https://i.imgur.com/eKBXOKd.png" group-title="Classic", MBC 1 (1080p)
@@ -42,7 +42,7 @@ https://flu.systemnet.tv/CBCDrama/index.m3u8
 #EXTINF: -1 tvg-id="Abu Dhabi TV ARB" tvg-name="Abu Dhabi 1 ARB" tvg-logo="https://i.imgur.com/oExmYqk.jpg" group-title="Classic", Abu Dhabi TV
 https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/emarat_tv/emarat_tv_hls_nd/index.m3u8
 #EXTINF: -1 tvg-logo="http://www.snrtlive.ma/sites/all/themes/snrtlive/images/laayounex2.png" group-title="Classic", Al Aoula Laayoune
-http://192.168.8.131:9000/laayoune.m3u8
+http://192.168.8.236:9000/laayoune.m3u8
 #EXTINF:-1 tvg-id="BBCOneHD.uk" tvg-name="BBC One" tvg-country="UK" tvg-language="" tvg-logo="" group-title="",BBC One HD [South East]
 https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_south_east/pc_hd_abr_v2.m3u8
 #EXTINF:-1 tvg-id="BBCTwoHD.uk" tvg-name="BBC Two" tvg-country="UK" tvg-language="" tvg-logo="" group-title="",BBC Two HD
